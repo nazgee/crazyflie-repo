@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- remotes -->
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+  <remote  name="github-git"
+           fetch="git://github.com" />
+  <remote  name="github-https"
+           fetch="https://github.com" />
+  <remote  name="github-http"
+           fetch="http://github.com" />
+
+<!-- default values -->
+  <default revision="master"
+           remote="github-git" />
+
+<!-- crazyflie -->
+  <project path="crazyflie-firmware"
+           name="bitcraze/crazyflie-firmware.git" />
+  <project path="crazyflie-clients-python"
+           name="bitcraze/crazyflie-clients-python.git" />
+  <project path="crazyflie-electronics"
+           name="bitcraze/crazyflie-electronics.git" />
+  <project path="crazyflie-bootloader"
+           name="bitcraze/crazyflie-bootloader.git" />
+
+<!-- crazyradio -->
+  <project path="crazyradio-firmware"
+           name="bitcraze/crazyradio-firmware.git" />
+  <project path="crazyradio-electronics"
+           name="bitcraze/crazyradio-electronics.git" />
+
+
+
+</manifest>
