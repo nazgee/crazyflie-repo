@@ -16,7 +16,8 @@
 
 <!-- crazyflie -->
   <project path="crazyflie-firmware"
-           name="bitcraze/crazyflie-firmware.git" />
+           revision="devel"
+           name="nazgee/crazyflie-firmware.git" />
   <project path="crazyflie-clients-python"
            name="bitcraze/crazyflie-clients-python.git" />
   <project path="crazyflie-electronics"
